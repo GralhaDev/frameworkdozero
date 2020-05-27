@@ -1,0 +1,17 @@
+{
+    "name": "gralhadev/frameworkdozero",
+    "description": "Framework do Zero",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GralhaFW\\": "src\\"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\GralhaFW\\": "test\\src\\",
+            "Test\\GralhaFW\\Support\\": "test\\support\\"
+        }
+    }
+}
